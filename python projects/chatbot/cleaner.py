@@ -24,5 +24,3 @@ def clean_corpus(chat_export_file):
     cleaned_corpus = remove_non_message_text(message_corpus)
     return cleaned_corpus
 
-if __name__ == "main":
-    print(remove_chat_metadata("chat.txt"))
